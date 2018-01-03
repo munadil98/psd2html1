@@ -1,0 +1,233 @@
+@font-face {
+ font-family: BEBAS;
+ src: url("../fonts/BEBAS.ttf") 
+}
+
+@font-face {
+ font-family: BEBAS;
+ src: url("../fonts/BEBAS.eot") /* EOT file for IE */
+}
+
+@font-face {
+ font-family: helvetica;
+ src: url("../fonts/helvetica.otf") 
+}
+
+
+body {
+	width: 100%
+	margin: 0;
+	padding: 0;
+	/*font-family: Helvetica, Verdana, Arial, Sans-Serif;*/
+	font-family: helvetica;
+	color: #474747;
+
+}
+
+
+.wrapper {
+	width: 80%;
+	/*border: 2px solid red;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header {
+	font-family: BEBAS;
+	text-transform: uppercase;
+
+}
+
+.logo {
+	float: left;
+}
+
+.main_menu {
+	float: right;
+}
+
+.main_menu ul{
+	list-style: none;
+
+}
+.main_menu span {
+	display: block;
+	color:#a5a5a5;
+	font-size: 18px;
+	/*font-weight: bold;*/
+
+}
+
+.main_menu ul li{
+	display: inline-block;
+	margin-right: 30px;
+	
+}
+
+.main_menu a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #474747;
+	font-size: 20px;
+}
+.body {
+	clear: both;
+	padding-top: 30px;
+}
+
+.body_left {
+	width: 75%;
+	float: left;
+	/*border: 2px solid red;*/
+}
+
+.project_header {
+	font-family: BEBAS;
+	color: #474747;
+}
+
+.project_header h1{
+	/*font-size: 28px;*/
+	text-transform: uppercase;
+}
+
+.project_header p{
+	
+	font-size: 12px;
+	color: #9e9e9e;
+}
+
+
+.body_right {
+	font-family: helvetica;
+	color: #474747;
+	width: 25%;
+	float: right;
+	/*border: 2px solid blue;*/
+}
+.post {
+	width: 82%;
+
+}
+.post_header {
+	font-family: BEBAS;
+	text-transform: uppercase;
+	margin-top: 50px;
+}
+
+.d_t_c {
+	width: 20%;
+	float: left;
+	font-family: BEBAS;
+	text-transform: uppercase;
+}
+
+.d_t_c h4{
+	margin-bottom: 5px;
+	padding: 0;
+}
+
+.d_t_c span{
+	/*margin: 0;*/
+	/*padding: 0;*/
+	marging-bottom:15px;
+	font-size: 10px;
+}
+
+.para {
+	width: 80%;
+	float: right;
+	text-align: justify;
+}
+
+.para p{
+	width: 100%;
+}
+
+.pagination {
+	clear: both;	
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+.body_right_title {
+	font-family: BEBAS;
+	color: #474747;
+	margin-top: 60px;
+	text-transform: uppercase;
+}
+
+.about_content {
+}
+
+.category_title {
+}
+
+.category_content {
+}
+
+.category_content ul {
+	list-style: none;
+	margin: 0;
+}
+
+.category_content ul li a{
+	text-decoration: none;
+	color: #474747;
+	margin-left: -38px;
+
+}
+
+
+
+.twitter_title {
+
+}
+
+.twitter_content {
+
+
+}
+.twitter_content ul {
+	list-style: none;
+	align-content: left;
+}
+.twitter_content ul li a {
+	text-decoration: none;
+	color: #d5d5d5;
+}
+
+.twitter_content span{
+	display: block;
+	color: #d5d5d5;
+}
+
+
+.footer {
+	clear: both;
+	font-family: helvetica;
+	color: #474747;
+	/*position: relative;*/
+	/*border: 2px solid	red;*/
+
+}
+
+.footer img{
+	width: 100%;
+	height: 6px;
+	/*position: absolute;*/
+	/*bottom: -10px;*/
+	/*border: 2px solid	red;*/
+}
+
+.copyright {
+	float: left;
+	color: #aeaeae;
+}
+
+.developer {
+	float: right;
+	color: #aeaeae;
+}
